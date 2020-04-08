@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "msal-base-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msalBase/MsalBaseWebPart.js",
+          "manifest": "./src/webparts/msalBase/MsalBaseWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MsalBaseWebPartStrings": "lib/webparts/msalBase/loc/{locale}.js"
+  }
+}
